@@ -3,8 +3,6 @@ package br.com.renato.texoit.core.entity;
 import br.com.renato.texoit.core.dto.MovieCSV;
 import jakarta.persistence.*;
 
-import java.util.List;
-
 @Entity
 @Table(name = "movie")
 public class Movie {

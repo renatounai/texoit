@@ -2,7 +2,6 @@ package br.com.renato.texoit.core.service;
 
 import br.com.renato.texoit.core.dto.MovieCSV;
 import br.com.renato.texoit.core.entity.*;
-import com.opencsv.CSVReader;
 import com.opencsv.bean.CsvToBean;
 import com.opencsv.bean.CsvToBeanBuilder;
 import jakarta.annotation.PostConstruct;

@@ -17,7 +17,7 @@ public class SummaryRestController {
 
     @GetMapping
     public Summary getSummary() {
-        return summaryService.findSummary();
+        return summaryService.findProducersSummaryByInterval();
     }
 
 }
